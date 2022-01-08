@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+   <head>
+       <meta charset="UTF-8">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+       <title>Repaso</title>
+       <link rel="stylesheet" href="assets/css/style.css">
+   </head>
+   <body>
+       <h1>Repaso</h1>
+       <h2 id="subtitulo">Formularios </h2>
+       <form>
+           <fieldset>
+               <legend>Datos</legend>
+               <div>
+                   <label for="nombre">Nombre</label>
+                   <input id="nombre"
+                   name="nombre"
+                   type="text"
+                   placeholder="Ingrese su nombre :3"/>
+
+               </div>
+               <div>
+                <label for="apellido">Apellido</label>
+               <input id= "apellido"
+               name="apellido"
+               type="text" 
+               placeholder="Ingrese su Apellido :3"/>
+
+            </div>
+            <div>
+                <label for="comentario">Comentario</label>
+                <textarea name="comentario" 
+                id="comentario" 
+                cols="10" 
+                rows="5"
+                ></textarea>
+            </div>
+            <div>
+                <input type="button" 
+                value="Enviar"/>
+            </div>
+           </fieldset>
+       </form>
+
+       <h2>Tablas</h2>
+       <table>
+           <thead>
+               <!--colspan y rowspan-->
+               <tr>
+                   <th>Cabecera</th><!--columna solo en cabecera--></tr><!--fila-->
+                   <th>Cabecera</th>
+               </tr>
+
+           </thead>
+           <tbody>
+               <tr>
+                   <td>A</td>
+                   <td>B</td>
+               </tr>
+
+           </tbody>
+           <tfoot>
+               <tr>
+                   <td>Pie</td>
+                   <td>Pie</td>
+               </tr>
+           </tfoot>
+
+
+       </table>
+   
+      <!--inline-->    
+      <a class="enlace"href="servicios.html" 
+       target="_blank">Enlace</a>
+       <a class="enlace" href="servicios.html" 
+       target="_blank">Enlace</a>
+      <!--block-->
+      <span class="enlace">Este es un span</span>
+      <p id="bloque">Este es un parrafo</p>
+      <h1 id="bloque">Titulo</h1>
+      <h2 id="bloque">subtitulo</h2>
+      <h6 id="bloque">subtitulo mini</h6>
+      <div id="bloque">secciones</div>
+     
+      <a href="servicios.html"><button>Hola</button></a>
+      <a><img 
+        src="https://pbs.twimg.com/media/DUfDNvTVQAA2osS.jpg:large" alt="gatito"
+        width="400"
+        
+        /></a>
+        <a href="#subtitulo">ir arriba</a>
+      
+   </body>
+</html>

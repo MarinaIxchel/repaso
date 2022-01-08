@@ -1,0 +1,25 @@
+
+/*comentarios en CSS*/
+h1 {
+    font-size: 99px;
+    color:rgb(148, 30, 89);
+    background-color: indianred;
+    text-align: center;
+    text-transform:lowercase;
+    font-style: italic;
+    }
+
+body {background-color: rgb(238, 181, 190);}
+p {
+    color: rgb(66, 6, 51);
+    background-color: rgb(235, 131, 229);
+}
+
+#texto{color: darkmagenta;
+background-color: darksalmon;
+
+}
+.texto{
+    color: coral;
+    background-color: crimson;
+}

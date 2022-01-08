@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.menu{
+    background-color: rgb(100, 65, 93);
+    height: 50px;
+}
+
+.menu ul{
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.elemento{
+    display: inline;
+    margin: 0 20px;
+    /*margin:superior derecha inferior izquierda*/
+}
+.elemento a{
+    font-family: 'Comforter Brush', cursive;
+    font-size: 24px;
+    color: rgb(255, 129, 160);
+    text-decoration: none;
+    line-height: 50px; /*centra el texto*/
+    transition: color 0.3s;
+}
+.elemento a:hover{
+    color: rgb(160, 11, 68);
+}
+.menu .elemento:hover{
+    background-color: rgb(246, 177, 203);
+    font-size: 30px;
+}

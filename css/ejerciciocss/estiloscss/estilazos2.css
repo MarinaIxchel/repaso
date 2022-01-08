@@ -1,0 +1,26 @@
+h1{
+    color: rgb(255, 4, 4);
+    text-align: right;
+}
+
+
+body {
+    background-color:rgb(208, 223, 252);
+}
+
+.naranja{
+    color: rgb(230, 158, 24);
+}
+.naranja2{
+    color:rgb(230, 158, 24);
+    font-family: 'Franklin Gothic Medium';
+}
+
+.verde{
+    color: rgb(56, 105, 6);
+}
+.verde2{
+    color: rgb(56, 105, 6);
+    background-color: white;
+    font-style: italic;
+}

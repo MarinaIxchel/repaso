@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(206, 214, 228);
+}
+h1{
+    color: black;
+    text-align: center;
+
+}
+h2{
+    background-color: gray;
+    color: white;
+    width: 900px;
+    height: 30px;
+    margin-left: 50px;
+}
+.rojito{
+    color: red;
+}
+.negrita{
+    color: black;
+    background-color: white;
+}
+.contenedores{
+    display: flex;
+}

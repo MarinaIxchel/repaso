@@ -1,0 +1,43 @@
+
+   /* background-image: url(https://i.pinimg.com/originals/f1/0f/e5/f10fe56c5e9466361dc1daf2939d64bc.jpg);
+    background-repeat: no-repeat;
+    /*background-size: cover;*/
+
+
+
+
+.title{
+    font-family:fantasy;
+}
+.subtitle{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.caja {
+    width: 300px;
+    height: 300px;
+    margin:20px;
+    margin-bottom:20px;
+    padding: 20px;
+    font-size: 50px;
+    border-radius: 30px;
+}
+
+.rojo{
+background-color: darksalmon;
+border: 14px solid rgb(172, 3, 54);
+}
+
+.verde{
+background-color: rgb(95, 243, 95);
+border: 14px dotted rgb(15, 107, 15);
+}
+
+.azul{
+background-color: rgb(90, 210, 250);
+border: 14px dashed rgb(10, 79, 102);
+
+}
+
+
+

@@ -1,0 +1,38 @@
+body{
+    background-color: lightgray;
+}
+.contenedor{
+    display:flex;
+    height: 600px;
+    border: solid 4px rgb(70, 80, 74);
+    justify-content: space-evenly;/*justify-content 
+    acomoda los elementos horizontalmente*/
+    align-items: flex-start;/*align items posiciona los 
+    elementos de manera vertical*/
+    flex-wrap:wrap ;
+    
+}
+.caja{
+    width: 300px;
+    height: 300px;
+    border: 1px;
+}
+.rojo{
+    background-color: rgb(255, 122, 122);
+    /*align-self: flex-start;*/
+
+}
+.azul{
+    background-color:lightskyblue ;
+    /*align-self: flex-end;*/
+
+}
+.verde{
+    background-color: limegreen;
+    /*align-self: center;solo acomoda al elemento*/
+
+}
+.amarillo{
+    background-color:rgb(255, 255, 112) ;
+
+}
